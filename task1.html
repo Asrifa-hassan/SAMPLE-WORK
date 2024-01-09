@@ -5,46 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>interior</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
         .container{
             background:url(images/Wooden.png);
             background-repeat:no-repeat;
-            background-position: bottom;
             background-size: cover;
-            margin: 0 auto;
-            margin-top:100px;
-            width: 80%;
-            height:600px;
-            text-align:center; 
+            background-position: bottom;
+            width: 100%;
+            height:696px;
+            align-items: center;
         }
         .container p{
             width: 658px;
-            padding-top: 119px;
-            padding-left: 320px;
-            padding-right: 80px;
             height: 90px;
             font-size:50px;
             font-family: sans-serif;
             color:gray;
-            line-height: big;
+            margin-left: 444px;
+            padding-top: 150px;
             letter-spacing: 1px;
-            text-align: center;       
         }
         .container button {
             background-color:rgb(206, 98, 27);
             font-family: sans-serif;
             font-size:15px;
-            font-weight: bold;
-            padding: 12px;
-            padding-top:10px;
-            padding-bottom:10px;
+            font-weight: 500;
             width: 170px;
             display: inline-block;
             /* border-radius: 5px; */
             text-align:center;
             border: none;
             height: 50px;
+            margin-left: 656px;
+            margin-top: 85px;
+        }
+        @media only screen and (max-width:1400px) and (min-width:1201px) {
+        .container p{
+            margin-left: 368px;
+            padding-top: 135px;
+        }
+        .container button{
+            margin-left: 656px;
+            margin-top: 85px;
 
         }
+    }
     </style>
 </head>
 <body>
